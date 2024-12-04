@@ -9,6 +9,8 @@ import ExampleThree from './component/ExampleThree'
 import ExampleFour from './component/ExampleFour'
 import Counter from './component/Counter'
 import TodoList from './component/TodoList'
+import Profile from './component/Profile'
+import ShoppingList from './component/ShoppingList'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 
   return (
     <div>
+    <ShoppingList/>
+    <Profile/>
     <TodoList/>
     <Counter/>
     <ExampleFour/>
